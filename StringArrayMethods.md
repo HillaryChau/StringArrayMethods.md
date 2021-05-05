@@ -161,7 +161,7 @@ arr.sort((a, b) => b - a); // sort descending [10,5,3,2,1]
 ```
 
 ```javascript
-// Example 2:
+// Example 3:
 // sort words alphabetically
 let arr = ['b', 'd', 'a', 'c'];
 
@@ -261,7 +261,7 @@ console.log(fruitBasket); // [1,2]
 ```
 
 ```javascript
-// Example 2:
+// Example 3:
 // pop twice on array and remove its last item
 let fruitBasket = [1, 2, 3, 4];
 fruitBasket.pop();
@@ -293,7 +293,7 @@ console.log(fruitBasket); // [2,3]
 ```
 
 ```javascript
-// Example 2:
+// Example 3:
 // shift twice on array and remove its last item
 let fruitBasket = [1, 2, 3, 4];
 fruitBasket.shift();
@@ -325,7 +325,7 @@ console.log(fruitBasket); // [4,1,2,3]
 ```
 
 ```javascript
-// Example 2:
+// Example 3:
 // unshift twice an item to an array
 let fruitBasket = [1, 2, 3, 4];
 fruitBasket.unshift(0);
@@ -357,7 +357,7 @@ console.log(fruitBasket); // [1,2,3,4]
 ```
 
 ```javascript
-// Example 2:
+// Example 3:
 // push 5 and 6 on array
 let fruitBasket = [1, 2, 3, 4];
 fruitBasket.push(5);
@@ -415,7 +415,7 @@ arr.every((num) => num > 0); // true
 ```
 
 ```javascript
-// Example 2:
+// Example 3:
 // check if every item in arr is greater than 2
 let arr = [1, 2, 3, 4];
 arr.every((num) => num > 2); // false
